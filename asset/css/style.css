@@ -1,0 +1,300 @@
+/* ---------home--------- */
+/* header */
+.header{
+    padding-top: 36px;
+    padding-bottom: 39px;
+}
+
+/* logo */
+.logo-start{
+    font-size: 4rem;
+    font-weight: 400;
+    color: var(--cl-white-100);
+    line-height: 1.25;
+}
+
+.logo-img{
+    width: 70px;
+    height: 48.31px;
+    margin-right: 18px;
+}
+
+/* menu */
+.menu__item a{
+    color: var(--cl-white-100);
+}
+
+.menus{
+    gap: 30px;
+}
+
+.menu__img{
+    height: 35px;
+    width: 35px;
+    display: none;
+}
+/* end header */
+
+/* main */
+
+/* welcome */
+.welcome{
+    padding-top: 2px;
+    padding-bottom: 83px;
+}
+
+.welcome__label{
+    color: var(--cl-white-100);
+}
+
+.welcome__container{
+}
+
+.welcome__content{
+    margin-top: 41px;
+    flex-basis: 35.25%;
+}
+
+.welcome__heading{
+    margin: 15px 0;
+    color: var(--cl-white-100);
+}
+
+.welcome__text{
+    color: var(--cl-white-75);
+}
+
+.welcome__img{
+    flex-basis: 54.6%;
+}
+ /*  */
+
+ /* introduce */
+ 
+.introduce__content{
+    max-width: 411px;
+}
+
+.introduce__label{
+    color: var(--cl-green-100);
+}
+
+.introduce__heading{
+    margin: 16px 0;
+}
+
+/* partners */
+.partners__list{
+    margin: 55px 0;
+    gap: 40px;
+}
+
+.partners__item{
+}
+
+.partners__img{
+    height: 50px;
+}
+/*  */
+
+/* post */
+.post{
+    margin-top: 73px;
+}
+
+.post__container{
+}
+
+.post__content{
+    margin-top: 88px;
+    flex-basis: 39.83%;
+}
+
+.post__img{
+    flex-basis: 50%;
+}
+
+.post__text{
+    margin: 16px 0;
+    color: var(--cl-dark-50);
+}
+
+/* team */
+.team__list{
+    margin: 0 -8px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.team__item{
+    margin: 0 8px;
+    margin-bottom: 35px;
+}
+
+.team__container{
+    padding: 20px 39px 19px 38px;
+}
+
+.team__media{
+    padding: 0 13.5px;
+}
+
+.team__img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.team__name{
+    padding-top: 19px;
+    padding-bottom: 17px;
+}
+
+/* footer */
+.footer__container{
+    padding-top: 51px;
+    padding-bottom: 49px;
+}
+
+.footer__socials{
+    gap: 20px;
+}
+
+.footer__img{
+    height: 18px;
+}
+
+.footer__content{
+    color: var(--cl-white-100);
+}
+/* --------end home--------- */
+
+/* --------portfolio--------- */
+
+/* works */
+.works__list{
+    margin: 82px -27.5px 7px -27.5px;
+}
+
+.works__item{
+    padding: 0 27.5px 55px 27.5px ;
+}
+/*  */
+
+/* services */
+.services{
+    gap: 50px;
+    margin: 78px 0 135px 0;
+}
+
+.services__item{
+    padding: 46px 30px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.services__price p{
+    color: var(--cl-dark-50);
+    margin-left: 9px;
+}
+
+.services__content{
+    color: var(--cl-dark-50);
+    max-width: 279px;
+    margin-top: 10px;
+}
+
+.services__check{
+    margin-top: 17px;
+}
+
+.services__check img{
+    height: 13.28px;
+    width: 17.19px;
+    margin-right: 14px;
+}
+/*  */
+
+/* contact */
+.contact__list{
+    margin-bottom: 93px;
+}
+
+.form{
+    margin-right: 15px;
+    height: 100%;
+}
+
+.contact__map{
+    margin-left: 15px;
+}
+
+.input__name{
+}
+
+.form__input{
+    margin-top: 16px;
+    margin-bottom: 21px;
+    height: 38px;
+    border-radius: 5px;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+}
+
+.form__mess{
+    height: 78px;
+}
+
+/* box model */
+.p-0{
+    padding: 0;
+}
+
+.mg-0{
+    margin: 0;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+
+.mt-25{
+    margin-top: 25px;
+}
+
+.mg-center{
+    margin: 0 auto;
+}
+
+.mt-35{
+    margin-top: 35px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.mb-54{
+    margin-bottom: 54px;
+}
+
+.mt-68{
+    margin-top: 68px;
+}
+
+.mt-30{
+    padding-top: 30px;
+}
+
+.mt-60{
+    padding-top: 60px;
+}
+
+.mt-102{
+    padding-top: 102px;
+}
+/*  */

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Work+Sans:wght@400;700&display=swap');
+
+:root{
+    --cl-dark-100: rgba(33, 37, 41, 1);
+    --cl-dark-75: rgba(33, 37, 41, 0.75);
+    --cl-dark-50: rgba(33, 37, 41, 0.5);
+    --cl-dark-25: rgba(33, 37, 41, 0.25);
+
+    
+    --cl-green-100: rgba(116, 198, 157, 1);
+    --cl-green-75: rgba(116, 198, 157, 0.75);
+    --cl-green-50: rgba(116, 198, 157, 0.5);
+    --cl-green-25: rgba(116, 198, 157, 0.25);
+
+    --cl-white-100: rgba(255, 255, 255, 1);
+    --cl-white-75: rgba(255, 255, 255, 0.75);
+    --cl-white-50: rgba(255, 255, 255, 0.5);
+    --cl-white-25: rgba(255, 255, 255, 0.25);
+
+    --bg-header: #74C69D;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Crimson Text', serif;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+}
+
+
+/* heading */
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 700;
+    font-family: 'Crimson Text';
+    font-style: normal;
+    line-height: 1.25;
+}
+
+.h1{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.h2{
+    font-size: 3.2rem;
+    margin: 0;
+}
+
+.h3{
+    font-size: 2.8rem;
+    margin: 0;
+}
+
+.h4{
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+.h5{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.h6{
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.sub-h, .label{
+    font-family: 'Work Sans';
+    line-height: 1.25;
+    margin: 0;
+}
+
+.sub-h{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.label{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.text-b, .text-r {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    margin: 0;
+}
+
+.text-r{
+    font-weight: 400;
+}
+
+.text-b{
+    font-weight: 700;
+}
+
+.text-d-none{
+    text-decoration: none;
+}
+/*  */
+
+.font-work{
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+
+.list-no-style{
+    list-style: none;
+}
+
+/* text */
+.transform-up{
+    text-transform: uppercase;
+}
+
+.text-white{
+    color: var(--cl-white-100);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.lt-sp-5{
+    letter-spacing: 5px;
+}
+
+/* btn */
+.btn{
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    width: 170px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+/*  */
+
+ /* card */
+.card{
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+ /*  */
+
+/* bg cl */
+.bg-main{
+    background-color: var(--bg-header);
+}
+
+.bg-white-100{
+    background-color: var(--cl-white-100);
+}
+
+.bg-dark-100{
+    background-color: var(--cl-dark-100);
+}
+/*  */
+
+/* cl */
+.cl-green-100{
+    color: var(--cl-green-100);
+}
+
+.cl-white-75{
+    color: var(--cl-white-75);
+}
+
+/* flex */
+.d-flex{
+    display: flex;
+}
+    
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-d-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+/*  */
+.d-block{
+    display: block;
+}
+/*  */
+
+.full-width{
+    width: 100%;
+}
