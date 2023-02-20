@@ -2,10 +2,18 @@
     .team__list{
         --gap:20px;
     }
+
+    .works__list{
+        --gap:20px;
+    }
+
+    .services{
+        --gap:20px;
+    }
 }
 
 /* tablet & mobile */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
     /* hide */
     .hide-on-m{
         display: none;
@@ -17,27 +25,27 @@
     /*  */
 
     /* heading */
-    .h1-c{
+    .h1-mobile{
         font-size: 4rem;
     }
     
-    .h2-c{
+    .h2-mobile{
         font-size: 3.2rem;
     }
     
-    .h3-c{
+    .h3-mobile{
         font-size: 2.8rem;
     }
     
-    .h4-c{
+    .h4-mobile{
         font-size: 2.4rem;
     }
     
-    .h5-c{
+    .h5-mobile{
         font-size: 2rem;
     }
     
-    .h6-c{
+    .h6-mobile{
         font-size: 1.6rem;
     }
     /*  */
@@ -191,11 +199,6 @@
     .works__list{
         margin-top: 45px;
     }
-
-    .works__item{
-        padding-left: 0;
-        padding-right: 0;
-    }
     /*  */
 
     /* services */
@@ -206,22 +209,21 @@
     /*  */
 
     /* contact */
-    .form{
-        margin-right: 0px;
+    .contact{
+        margin-top: 39px;
     }
-    
+
     .contact__map{
-        margin: 45px 0 21px 0;
+        margin-bottom: 21px;
     }
 
     .contact__list{
         margin-bottom: 59px;
-    }
-    
-    .form__mess{
-        height: 141px;
-    }
+    }   
 
+    .form__mess{
+        margin-bottom: 30px;
+    }
     /*  */
     @keyframes menu{
         from{

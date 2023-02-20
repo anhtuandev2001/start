@@ -172,17 +172,27 @@
 
 /* works */
 .works__list{
-    margin: 82px -27.5px 7px -27.5px;
+    margin-top: 82px;
+    margin-bottom: 8px;
+}
+
+.works__list{
+    --gap: 55px;
+}
+
+.works__img{
+    border: 1.5px solid #000000;
+    border-radius: 5px;
 }
 
 .works__item{
-    padding: 0 27.5px 55px 27.5px ;
+    padding-bottom: 55px;
 }
 /*  */
 
 /* services */
 .services{
-    gap: 50px;
+    --gap: 50px;
     margin: 78px 0 135px 0;
 }
 
@@ -203,6 +213,10 @@
     margin-top: 10px;
 }
 
+.services__checks{
+    max-width: 279px;
+}
+
 .services__check{
     margin-top: 17px;
 }
@@ -215,35 +229,30 @@
 /*  */
 
 /* contact */
+.contact{
+    margin-top: 67px;
+    --gap:31px;
+}
+
 .contact__list{
     margin-bottom: 93px;
 }
 
 .form{
-    margin-right: 15px;
     height: 100%;
-}
-
-.contact__map{
-    margin-left: 15px;
-}
-
-.input__name{
 }
 
 .form__input{
     margin-top: 16px;
     margin-bottom: 21px;
-    height: 38px;
     border-radius: 5px;
     background: #EEEEEE;
     border: 1px solid #000000;
 }
 
-.form__mess{
-    height: 78px;
+.input-height{
+    height: 38px;
 }
-
 /* box model */
 .p-0{
     padding: 0;
@@ -275,6 +284,10 @@
 
 .mb-100{
     margin-bottom: 100px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
 }
 
 .mb-54{
