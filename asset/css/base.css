@@ -153,11 +153,6 @@ body{
     height: 48px;
     width: 170px;
 }
-
-.btn:hover{
-    cursor: pointer;
-    opacity: 0.5;
-}
 /*  */
 
  /* card */
@@ -216,7 +211,7 @@ body{
     justify-content: center;
 }
 
-.flex-d-column{
+.flex-col{
     flex-direction: column;
 }
 

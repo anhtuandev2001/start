@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="./asset/css/reset.css">
     <link rel="stylesheet" href="./asset/css/grid.css">
     <link rel="stylesheet" href="asset/css/base.css">
@@ -15,14 +16,18 @@
     <header>
         <div class="header bg-main">
             <div class="container">
-                <div class="p-header d-flex justify-between align-center">
-                    <a href="./index.html" class="header__logo text-d-none d-flex align-center">
+                <div class="d-flex justify-between align-center">
+                    <a href="./index.html" class="text-d-none header__logo d-flex align-center">
                         <img src="./asset/img/logo/header-logo.svg" alt="" class="logo-img">
                         <p class="logo-start font-work mg-0">Start</p>
                     </a>
                     <div class="header__menu">
-                        <img src="./asset/img/logo/menu.png" alt="" class=" p-relative menu__img d-block show-on-m">
-                        <ul class="menus d-flex p-0 justify-between list-no-style hide-on-m">
+                        <div class="menu__mobile p-relative show-on-m-f d-flex justify-center align-center">
+                            <i class="fas fa-times icon-close hide-on-m"></i>
+                            <img src="./asset/img/logo/menu.svg" alt="" class="menu__img">
+                            <div class="menu__mobile-list list-no-style flex-col d-flex p-0"></div>
+                        </div>
+                        <ul class="menus d-flex p-0 hide-on-m justify-between list-no-style">
                             <li class="menu__item sub-h">
                                 <a href="./index.html"  class="text-d-none">Home</a>
                                 </li>
@@ -42,10 +47,10 @@
         </div>
     </header>
     <main>
-        <section class="introduce mt-30 mt-m-22">
+        <section class="introduce mt-160 mt-m-100">
             <div class="container">
-                <div class="introduce__container d-flex align-center flex-d-column">
-                    <div class="introduce__content d-flex flex-d-column align-center">
+                <div class="introduce__container d-flex align-center flex-col">
+                    <div class="introduce__content d-flex flex-col align-center">
                         <label class="introduce__label label d-block transform-up lt-sp-5">Plans</label>
                         <h2 class="introduce__heading h1 h4-mobile">Our Services</h2>
                         <p class="introduce__sub-heading sub-h text-center">Lorem ipsum, dolor sit amet consectetur
@@ -53,14 +58,14 @@
                     </div>
                     <div class="services d-flex row">
                         <div class="col l-4 m-12 c-12 mb-50">
-                            <div class="services__item card d-flex flex-d-column align-center">
+                            <div class="services__item card d-flex flex-col align-center">
                                 <p class="services__title text-r">Basic</p>
                                 <div class="d-flex justify-center align-center services__price">
                                     <h1 class="h1 font-work mg-0">$100</h1>
                                     <p class="text-r mg-0">/month</p>
                                 </div>
                                 <p class="services__content text-r text-center mg-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
-                                <ul class="services__checks d-flex flex-d-column list-no-style full-width mg-0 p-0">
+                                <ul class="services__checks d-flex flex-col list-no-style full-width mg-0 p-0">
                                     <li class="services__check d-flex align-center">
                                         <img src="./asset/img/icon/check.svg" alt="" class="">
                                         <p class="text-r">Lorem ipsum, dolor sit </p>
@@ -86,14 +91,14 @@
                             </div>
                         </div>
                         <div class="col l-4 m-12 c-12 mb-50">
-                            <div class="services__item card d-flex flex-d-column align-center">
+                            <div class="services__item card d-flex flex-col align-center">
                                 <p class="services__title text-r">Basic</p>
                                 <div class="d-flex justify-center align-center services__price">
                                     <h1 class="h1 font-work mg-0">$100</h1>
                                     <p class="text-r mg-0">/month</p>
                                 </div>
                                 <p class="services__content text-r text-center mg-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
-                                <ul class="services__checks d-flex flex-d-column list-no-style full-width mg-0 p-0">
+                                <ul class="services__checks d-flex flex-col list-no-style full-width mg-0 p-0">
                                     <li class="services__check d-flex align-center">
                                         <img src="./asset/img/icon/check.svg" alt="" class="">
                                         <p class="text-r">Lorem ipsum, dolor sit </p>
@@ -119,14 +124,14 @@
                             </div>
                         </div>
                         <div class="col l-4 m-12 c-12 mb-50">
-                            <div class="services__item card d-flex flex-d-column align-center">
+                            <div class="services__item card d-flex flex-col align-center">
                                 <p class="services__title text-r">Basic</p>
                                 <div class="d-flex justify-center align-center services__price">
                                     <h1 class="h1 font-work mg-0">$100</h1>
                                     <p class="text-r mg-0">/month</p>
                                 </div>
                                 <p class="services__content text-r text-center mg-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
-                                <ul class="services__checks d-flex flex-d-column list-no-style full-width mg-0 p-0">
+                                <ul class="services__checks d-flex flex-col list-no-style full-width mg-0 p-0">
                                     <li class="services__check d-flex align-center">
                                         <img src="./asset/img/icon/check.svg" alt="" class="">
                                         <p class="text-r">Lorem ipsum, dolor sit </p>
@@ -159,7 +164,7 @@
     <footer>
         <div class="footer bg-main">
             <div class="container">
-                <div class="footer__container d-flex justify-between flex-d-column-m align-center flex-wrap">
+                <div class="footer__container d-flex justify-between flex-col-m align-center flex-wrap">
                     <div class="footer__socials d-flex ">
                         <a href="#" class="social__media d-block">
                             <img src="./asset/img/photo/social/fb.svg" alt="facebook" class="footer__img d-block full-width">

@@ -3,6 +3,10 @@
 .header{
     padding-top: 36px;
     padding-bottom: 39px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 /* logo */
@@ -28,7 +32,7 @@
     gap: 30px;
 }
 
-.menu__img{
+.menu__mobile{
     height: 35px;
     width: 35px;
     display: none;
@@ -39,7 +43,7 @@
 
 /* welcome */
 .welcome{
-    padding-top: 2px;
+    padding-top: 133px;
     padding-bottom: 83px;
 }
 
@@ -272,6 +276,10 @@
 
 .mt-25{
     margin-top: 25px;
+}
+
+.mt-160{
+    margin-top: 160px;
 }
 
 .mg-center{

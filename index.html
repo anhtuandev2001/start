@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link rel="stylesheet" href="./asset/css/reset.css">
     <link rel="stylesheet" href="./asset/css/grid.css">
     <link rel="stylesheet" href="asset/css/base.css">
@@ -15,14 +16,18 @@
     <header>
         <div class="header bg-main">
             <div class="container">
-                <div class="p-header d-flex justify-between align-center">
+                <div class="d-flex justify-between align-center">
                     <a href="./index.html" class="text-d-none header__logo d-flex align-center">
                         <img src="./asset/img/logo/header-logo.svg" alt="" class="logo-img">
                         <p class="logo-start font-work mg-0">Start</p>
                     </a>
                     <div class="header__menu">
-                        <img src="./asset/img/logo/menu.svg" alt="" class=" p-relative menu__img d-block show-on-m">
-                        <ul class="menus d-flex p-0 justify-between list-no-style">
+                        <div class="menu__mobile p-relative show-on-m-f d-flex justify-center align-center">
+                            <i class="fas fa-times icon-close hide-on-m"></i>
+                            <img src="./asset/img/logo/menu.svg" alt="" class="menu__img">
+                            <div class="menu__mobile-list list-no-style flex-col d-flex p-0"></div>
+                        </div>
+                        <ul class="menus d-flex p-0 hide-on-m justify-between list-no-style">
                             <li class="menu__item sub-h">
                                 <a href="./index.html"  class="text-d-none">Home</a>
                                 </li>
@@ -59,8 +64,8 @@
         </section>
         <section class="introduce mt-60 mt-m-22">
             <div class="container">
-                <div class="introduce__container d-flex align-center flex-d-column">
-                    <div class="introduce__content d-flex flex-d-column align-center">
+                <div class="introduce__container d-flex align-center flex-col">
+                    <div class="introduce__content d-flex flex-col align-center">
                         <label class="introduce__label label d-block transform-up lt-sp-5">partners</label>
                         <h2 class="introduce__heading h1 h4-mobile">Lorem Ipsum Dolor</h2>
                         <p class="introduce__sub-heading sub-h text-center">Lorem ipsum, dolor sit amet consectetur
@@ -121,8 +126,8 @@
         </section> 
         <section class="introduce mt-102 mt-m-40">
             <div class="container">
-                <div class="introduce__container d-flex align-center flex-d-column">
-                    <div class="introduce__content d-flex flex-d-column align-center">
+                <div class="introduce__container d-flex align-center flex-col">
+                    <div class="introduce__content d-flex flex-col align-center">
                         <label class="introduce__label label d-block transform-up lt-sp-5">partners</label>
                         <h2 class="introduce__heading h1 h4-mobile">Lorem Ipsum Dolor</h2>
                         <p class="introduce__sub-heading sub-h text-center">Lorem ipsum, dolor sit amet consectetur
