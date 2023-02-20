@@ -130,14 +130,20 @@
     /* menu */
     .menus{
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 65px;
-        background-color: #896b6b;
+        background-color: var(--cl-white-100);
         border-radius: 5px;
         justify-content: unset;
         gap: 0;
-        animation: menu ease-in-out .5s;
+        width: 50%;
+        height: 100%;
+        transform: translateX(100%);
+    }
+
+    .menus--active{
+        transform: translateX(0);
     }
 
     .menu__img:hover{
@@ -148,6 +154,12 @@
     .menu__item{
         padding: 15px;
         border-bottom:solid 1px white;
+    }
+    
+    .menu__item a{
+        color: var(--cl-green-100);
+        display: block;
+        text-align: center;
     }
 
     .menu__item:hover{
