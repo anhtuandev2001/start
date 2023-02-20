@@ -134,6 +134,10 @@ body{
     color: var(--cl-white-100);
 }
 
+.text-dark{
+    color: var(--cl-dark-100);
+}
+
 .text-center{
     text-align: center;
 }
@@ -194,6 +198,10 @@ body{
     
 .justify-between{
     justify-content: space-between;
+}
+
+.no-wrap{
+    flex-wrap: nowrap;
 }
 
 .align-center{

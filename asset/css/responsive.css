@@ -1,3 +1,10 @@
+@media (max-width:1024px) {
+    .team__list{
+        --gap:20px;
+    }
+}
+
+/* tablet & mobile */
 @media (max-width: 768px) {
     /* hide */
     .hide-on-m{
@@ -163,6 +170,10 @@
     }
 
     .team__list{
+        --gap:20px;
+    }
+
+    .team__list{
         justify-content: center;
         margin-top: 41px;
     }
@@ -225,5 +236,7 @@
 }
 
 @media (max-width: 568px) {
-    
+    .team__list{
+        --gap:35px;
+    }
 }
