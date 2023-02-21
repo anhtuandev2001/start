@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="stylesheet" href="./asset/css/responsive.css">
 </head>
+
 <body>
     <header>
         <div class="header bg-main">
@@ -22,40 +24,48 @@
                         <p class="logo-start font-work mg-0">Start</p>
                     </a>
                     <div class="header__menu">
-                        <div class="menu__mobile p-relative show-on-m-f flex-center">
-                            <i class="fas fa-times icon-close hide-on-m"></i>
-                            <img src="./asset/img/logo/menu.svg" alt="img" class="menu__img">
-                            <div class="menu__mobile-list list-no-style flex-col d-flex p-0"></div>
+                        <div class="menu__mobile p-relative show-on-m-f justify-center-m align-center-m">
+                            <img src="./asset/img/logo/menu.svg" alt="img" class="menu__img cursos-pointer">
+                            <div class="menu__mobile-container full-width full-height border-radius">
+                                <div class="close__container">
+                                    <span class="fas fa-times icon-close cursos-pointer "></span>
+                                </div>
+                                <div class="gap-0 menu__mobile-list list-no-style flex-col d-flex p-0"></div>
+                            </div>
                         </div>
                         <ul class="menus d-flex p-0 hide-on-m justify-between list-no-style">
-                            <li class="menu__item sub-h">
-                                <a href="./index.html"  class="text-d-none">Home</a>
-                                </li>
-                            <li class="menu__item sub-h">
-                                <a href="./portfolio.html"  class="text-d-none">Portfolio</a>
-                                </li>
-                            <li class="menu__item sub-h">
-                                <a href="./services.html"  class="text-d-none">Services</a>
-                                </li>
-                            <li class="menu__item sub-h">
-                                <a href="./contact.html"  class="text-d-none">Contact</a>
-                                </li>
+                            <li class="menu__item cursos-pointer sub-h">
+                                <a href="./index.html" class="text-d-none d-block">Home</a>
+                            </li>
+                            <li class="menu__item cursos-pointer sub-h">
+                                <a href="./portfolio.html" class="text-d-none d-block">Portfolio</a>
+                            </li>
+                            <li class="menu__item cursos-pointer sub-h">
+                                <a href="./services.html" class="text-d-none d-block">Services</a>
+                            </li>
+                            <li class="menu__item cursos-pointer sub-h">
+                                <a href="./contact.html" class="text-d-none d-block">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
+                <div class="overlay"></div>
             </div>
         </div>
     </header>
     <main>
-        <section class="paner welcome bg-main">
+        <section class="banner welcome bg-main">
             <div class="container">
                 <div class="row gap-0 flex-col-re-m">
                     <div class="col l-5-5 m-12">
-                        <div class="welcome__content">
+                        <div class="welcome__content mg-auto-m">
                             <span class="label welcome__label transform-up lt-sp-5">WELCOME</span>
                             <h1 class="welcome__heading h1 h3-mobile">Lorem ipsum dolor sit amet consectetur </h1>
-                            <p class="text-r welcome__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                            <a href="#" class="d-flex justify-center align-center text-dark text-d-none btn sub-h bg-white-100 bg mt-25">Explore</a>
+                            <p class="text-r welcome__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa
+                                nesciunt delectus iste?</p>
+                            <a href="#"
+                                class="d-flex justify-center align-center text-dark text-d-none btn sub-h bg-white-100 bg mt-25">Explore</a>
                         </div>
                     </div>
                     <div class="col l-6-5 m-12">
@@ -75,12 +85,13 @@
                         <p class="introduce__sub-heading sub-h text-center">Lorem ipsum, dolor sit amet consectetur
                             adipisicing elit.</p>
                     </div>
-                    <div class="partners__list  full-width flex-wrap flex-center">
+                    <div class="partners__list  full-width flex-wrap d-flex justify-center align-center">
                         <a href="#" class="partners__item">
                             <img src="./asset/img/logo/google.svg" alt="img " class="d-block full-width partners__img">
                         </a>
                         <a href="#" class="partners__item">
-                            <img src="./asset/img/logo/microsoft.svg" alt="img  " class="d-block full-width partners__img">
+                            <img src="./asset/img/logo/microsoft.svg" alt="img  "
+                                class="d-block full-width partners__img">
                         </a>
                         <a href="#" class="partners__item">
                             <img src="./asset/img/logo/airbnb.svg" alt="img " class="d-block full-width partners__img">
@@ -92,50 +103,60 @@
                             <img src="./asset/img/logo/spotify.svg" alt="img" class="d-block full-width partners__img">
                         </a>
                     </div>
-                    <a href="#" class="d-flex justify-center align-center text-d-none btn sub-h bg-dark-100 text-white ">Learn More</a>
+                    <a href="#"
+                        class="d-flex justify-center align-center text-d-none btn sub-h bg-dark-100 text-white ">Learn
+                        More</a>
                 </div>
             </div>
         </section>
-        <section class="paner post">
+        <section class="banner post">
             <div class="container">
                 <div class="row gap-0">
                     <div class="col l-6 m-12">
                         <div class="post__img">
-                            <img src="./asset/img/photo/persons_2.png" alt="img " class="d-block full-width" >
+                            <img src="./asset/img/photo/persons_2.png" alt="img " class="d-block max-width mg-auto-m">
                         </div>
                     </div>
                     <div class="col l-6 m-12">
                         <div class="post__content ml-a">
                             <h2 class="post__heading h1 h4-mobile">
-                                Lorem ipsum dolor sit amet consectetur 
+                                Lorem ipsum dolor sit amet consectetur
                             </h2>
-                            <p class="post__text text-r">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                            <a href="#" class="d-flex justify-center align-center text-d-none btn sub-h bg-dark-100 text-white">Learn More</a>
+                            <p class="post__text text-r">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa
+                                nesciunt delectus iste?</p>
+                            <a href="#"
+                                class="d-flex justify-center align-center text-d-none btn sub-h bg-dark-100 text-white">Learn
+                                More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="paner post">
+        <section class="banner post">
             <div class="container">
                 <div class="row gap-0 flex-col-re-m">
                     <div class="col l-6 m-12">
                         <div class="post__content mr-a">
                             <h2 class="post__heading h1 h4-mobile">
-                                Lorem ipsum dolor sit amet consectetur  
+                                Lorem ipsum dolor sit amet consectetur
                             </h2>
-                            <p class="post__text text-r">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                            <a href="#" class="d-flex justify-center align-center text-d-none btn sub-h bg-dark-100 text-white">Learn More</a>
+                            <p class="post__text text-r">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa
+                                nesciunt delectus iste?</p>
+                            <a href="#"
+                                class="d-flex justify-center align-center text-d-none btn sub-h bg-dark-100 text-white">Learn
+                                More</a>
                         </div>
                     </div>
                     <div class="col l-6 m-12">
                         <div class="post__img">
-                            <img src="./asset/img/photo/persons_3.png" alt="img " class="d-block full-width" >
+                            <img src="./asset/img/photo/persons_3.png" alt="img " class="d-block max-width mg-auto-m">
                         </div>
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
         <section class="introduce mt-102 mt-m-40">
             <div class="container">
                 <div class="introduce__container d-flex align-center flex-col">
@@ -145,45 +166,49 @@
                         <p class="introduce__sub-heading sub-h text-center">Lorem ipsum, dolor sit amet consectetur
                             adipisicing elit.</p>
                     </div>
-                    <div class="team__list d-flex row">
-                        <div class="col l-3 m-6 c-12">
+                    <div class="team__list justify-center-m d-flex row">
+                        <div class="col l-3 m-6 c-12 gap-100">
                             <div class="team__item card">
                                 <div class="team__container">
                                     <div class="team__media">
-                                        <img src="./asset/img/photo/team/team_1.png" alt="team_1" class="team__img full-width d-block ">
+                                        <img src="./asset/img/photo/team/team_1.png" alt="team_1"
+                                            class="team__img full-width d-block ">
                                     </div>
                                     <h4 class="team__name h4">Peg Legge</h4>
                                     <p class="team__position text-r transform-up">CEO</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-3 m-6 c-12">
+                        <div class="col l-3 m-6 c-12 gap-100">
                             <div class="team__item card">
                                 <div class="team__container">
                                     <div class="team__media">
-                                        <img src="./asset/img/photo/team/team_1.png" alt="team_1" class="team__img full-width d-block ">
+                                        <img src="./asset/img/photo/team/team_1.png" alt="team_1"
+                                            class="team__img full-width d-block ">
                                     </div>
                                     <h4 class="team__name h4">Peg Legge</h4>
                                     <p class="team__position text-r transform-up">CEO</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-3 m-6 c-12">
+                        <div class="col l-3 m-6 c-12 gap-100">
                             <div class="team__item card">
                                 <div class="team__container">
                                     <div class="team__media">
-                                        <img src="./asset/img/photo/team/team_1.png" alt="team_1" class="team__img full-width d-block ">
+                                        <img src="./asset/img/photo/team/team_1.png" alt="team_1"
+                                            class="team__img full-width d-block ">
                                     </div>
                                     <h4 class="team__name h4">Peg Legge</h4>
                                     <p class="team__position text-r transform-up">CEO</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col l-3 m-6 c-12">
+                        <div class="col l-3 m-6 c-12 gap-100">
                             <div class="team__item card">
                                 <div class="team__container">
                                     <div class="team__media">
-                                        <img src="./asset/img/photo/team/team_1.png" alt="team_1" class="team__img full-width d-block ">
+                                        <img src="./asset/img/photo/team/team_1.png" alt="team_1"
+                                            class="team__img full-width d-block ">
                                     </div>
                                     <h4 class="team__name h4">Peg Legge</h4>
                                     <p class="team__position text-r transform-up">CEO</p>
@@ -191,7 +216,9 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="d-flex justify-center align-center text-d-none btn sub-h mb-m-39 mb-54 bg-dark-100 text-white">Learn More</a>
+                    <a href="#"
+                        class="d-flex justify-center align-center text-d-none btn sub-h mb-m-39 mb-54 bg-dark-100 text-white">Learn
+                        More</a>
                 </div>
             </div>
         </section>
@@ -202,25 +229,32 @@
                 <div class="footer__container d-flex justify-between flex-col-m align-center flex-wrap">
                     <div class="footer__socials d-flex ">
                         <a class="social__media d-block">
-                            <img src="./asset/img/photo/social/fb.svg" alt="facebook" class="footer__img d-block full-width">
+                            <img src="./asset/img/photo/social/fb.svg" alt="facebook"
+                                class="footer__img d-block full-width">
                         </a>
                         <a class="social__media d-block">
-                            <img src="./asset/img/photo/social/inta.svg" alt="facebook" class="footer__img d-block full-width">
+                            <img src="./asset/img/photo/social/inta.svg" alt="facebook"
+                                class="footer__img d-block full-width">
                         </a>
                         <a class="social__media d-block">
-                            <img src="./asset/img/photo/social/twitter.svg" alt="facebook" class="footer__img d-block full-width">
+                            <img src="./asset/img/photo/social/twitter.svg" alt="facebook"
+                                class="footer__img d-block full-width">
                         </a>
                         <a class="social__media d-block">
-                            <img src="./asset/img/photo/social/pinterest.svg" alt="facebook" class="footer__img d-block full-width">
+                            <img src="./asset/img/photo/social/pinterest.svg" alt="facebook"
+                                class="footer__img d-block full-width">
                         </a>
                         <a class="social__media d-block">
-                            <img src="./asset/img/photo/social/chat.svg" alt="facebook" class="footer__img d-block full-width">
+                            <img src="./asset/img/photo/social/chat.svg" alt="facebook"
+                                class="footer__img d-block full-width">
                         </a>
                         <a class="social__media d-block">
-                            <img src="./asset/img/photo/social/tiktok.svg" alt="facebook" class="footer__img d-block full-width">
+                            <img src="./asset/img/photo/social/tiktok.svg" alt="facebook"
+                                class="footer__img d-block full-width">
                         </a>
                         <a class="social__media d-block">
-                            <img src="./asset/img/photo/social/youtube.svg" alt="facebook" class="footer__img d-block full-width">
+                            <img src="./asset/img/photo/social/youtube.svg" alt="facebook"
+                                class="footer__img d-block full-width">
                         </a>
                     </div>
                     <p class="footer__content sub-h">© Start, 2022. All rights reserved.</p>
@@ -228,7 +262,7 @@
             </div>
         </div>
     </footer>
-    <div class="overplay"></div>
     <script src="./main.js"></script>
 </body>
+
 </html>

@@ -135,16 +135,6 @@
 
 /* >= Tablet */
 @media (max-width: 868px) {
-  .row {
-    margin-left: calc(-1 * var(--gap)/2);
-    margin-right: calc(-1 * var(--gap)/2);
-  }
-
-  .col {
-    padding-left: calc(var(--gap)/2);
-    padding-right: calc(var(--gap)/2);
-  }
-
   .m-0 {
       display: none;
   }
@@ -226,16 +216,6 @@
 }
 
 @media (max-width:568px) {
-  .row {
-    margin-left: calc(-1 * var(--gap)/2);
-    margin-right: calc(-1 * var(--gap)/2);
-  }
-
-  .col {
-    padding-left: calc(var(--gap)/2);
-    padding-right: calc(var(--gap)/2);
-  }
-  
   .c-0 {
     display: none;
   }

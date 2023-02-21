@@ -1,14 +1,33 @@
-var menuMobile = document.querySelector('.menu__mobile');
-var menus = document.querySelector('.menus');
-var menuMobileList = document.querySelector('.menu__mobile-list');
-var iconClose = document.querySelector('.icon-close');
-var menuImg = document.querySelector('.menu__img');
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
 
-menuMobile.onclick = function(){
-    var menuText =  menus.innerHTML;
-    menuMobileList.innerHTML = menuText;
-    menuMobileList.style.transition = ' all 0.3s ease-in-out'
-    menuMobileList.classList.toggle("menu__mobile-list--active")
-    iconClose.classList.toggle("hide-on-m")
-    menuImg.classList.toggle("hide-on-m")
+const menuImg = $('.menu__img');
+const menuMobileList = $('.menu__mobile-list');
+const menuMobileContainer = $('.menu__mobile-container');
+const iconClose = $('.icon-close');
+const overlay = $('.overlay')
+
+const toggleElement = (element,classToggle) => {
+    const e = $(`.${element}`);
+    const className = $(`.${classToggle}`);
+    e.classList.toggle(`${classToggle}`)
 }
+
+const close = () =>{
+    toggleElement('menu__mobile-container','menu__mobile-container--active')
+    toggleElement('overlay','d-block')
+    toggleElement('menu__img','hide-on-m')
+}
+
+menuImg.onclick = () => {
+    menuMobileList.innerHTML = $('.menus').innerHTML
+    menuMobileContainer.style.transition = ' all 0.3s ease-in-out'
+    toggleElement('menu__mobile-container','menu__mobile-container--active')
+    toggleElement('overlay','d-block')
+    toggleElement('menu__img','hide-on-m')
+} 
+
+iconClose.addEventListener('click',close);
+overlay.addEventListener('click',close);
+
+

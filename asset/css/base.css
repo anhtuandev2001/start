@@ -32,6 +32,8 @@ html{
 }
 
 body{
+    font-size: 1.5rem;
+    line-height: 1.25;
 }
 
 
@@ -98,8 +100,6 @@ body{
 }
 
 .text-b, .text-r {
-    font-size: 1.5rem;
-    line-height: 1.25;
     margin: 0;
 }
 
@@ -154,7 +154,8 @@ body{
 .btn{
     border: none;
     border-radius: 5px;
-    height: 48px;
+    padding-top: 13px;
+    padding-bottom: 10px;
     width: 170px;
 }
 /*  */
@@ -188,6 +189,15 @@ body{
 
 .cl-white-75{
     color: var(--cl-white-75);
+}
+
+.border-radius{
+    border-radius: 5px;
+}
+
+
+.cursos-pointer{
+    cursor: pointer;
 }
 
 /* flex */
@@ -233,11 +243,34 @@ body{
     flex-wrap: wrap;
 }
 /*  */
-.d-block{
-    display: block;
-}
-/*  */
 
 .full-width{
     width: 100%;
 }
+
+.full-height{
+    height: 100%;
+}
+
+.max-width{
+    max-width: 100%;
+}
+/*  */
+
+/* box model */
+.p-0{
+    padding: 0;
+}
+
+.mg-0{
+    margin: 0;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
+.mg-center{
+    margin: 0 auto;
+}
+/*  */

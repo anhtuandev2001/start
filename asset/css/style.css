@@ -1,12 +1,13 @@
 /* ---------home--------- */
 /* header */
 .header{
-    padding-top: 36px;
-    padding-bottom: 39px;
+    padding-top: 35px;
+    padding-bottom: 38px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 }
 
 /* logo */
@@ -45,6 +46,10 @@
 .welcome{
     padding-top: 133px;
     padding-bottom: 83px;
+}
+
+.welcome__img img{
+    object-fit: cover;
 }
 
 .welcome__label{
@@ -104,6 +109,10 @@
     max-width: 461px;
 }
 
+.post__img{
+    object-fit: cover;
+}
+
 .post__text{
     margin: 16px 0;
     color: var(--cl-dark-50);
@@ -131,7 +140,9 @@
     aspect-ratio: 1;
     border-radius: 50%;
     border: solid 1px var(--cl-dark-100);
+    max-width: 175px;
     padding: 15px 20px 0 20px;
+    margin: 0 auto;
 }
 
 .team__name{
@@ -182,8 +193,9 @@
 
 /* services */
 .services{
-    --gap: 50px;
-    margin: 78px 0 135px 0;
+    --gap: 105px;
+    margin-top: 78px;
+    margin-bottom: 85px;
 }
 
 .services__item{
@@ -205,6 +217,7 @@
 
 .services__checks{
     max-width: 279px;
+    margin-top: 55px;
 }
 
 .services__check{
@@ -222,6 +235,11 @@
 .contact{
     margin-top: 67px;
     --gap:31px;
+}
+
+.contact__map{
+    object-fit: cover;
+    height: 100%;
 }
 
 .contact__list{
@@ -243,19 +261,22 @@
 .input-height{
     height: 38px;
 }
+/*  */
+
+/*  */
+.overlay{
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    bottom: 0;
+    animation:menu ease-in-out .2s;
+}
+/*  */
+
 /* box model */
-.p-0{
-    padding: 0;
-}
-
-.mg-0{
-    margin: 0;
-}
-
-.mt-0{
-    margin-top: 0;
-}
-
 .mt-48{
     margin-top: 48px;
 }
@@ -266,10 +287,6 @@
 
 .mt-160{
     margin-top: 160px;
-}
-
-.mg-center{
-    margin: 0 auto;
 }
 
 .mt-35{
@@ -313,12 +330,7 @@
 }
 /*  */
 
-.overplay{
-    background-color: rgba(0, 0, 0, 0.75);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: none;
-    bottom: 0;
+/* d-block */
+.d-block{
+    display: block;
 }
