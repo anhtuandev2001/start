@@ -153,7 +153,7 @@
     .menu__mobile-list--active{
         transform: translateX(0);
     }
-    
+
     /* menu__icon */
     .icon-close{
         font-size: 25px;
@@ -210,6 +210,11 @@
 
     .post{
         margin-top: 60px;
+    }
+
+    .post__img img{
+        width: unset;
+        margin: auto;
     }
 
     .post__content{
