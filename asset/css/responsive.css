@@ -214,6 +214,7 @@
 
     .post__img img{
         width: unset;
+        max-width: 100%;
         margin: auto;
     }
 
