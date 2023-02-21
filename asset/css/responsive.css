@@ -122,10 +122,12 @@
     /*  */
 
     /* home */
+    /* header */
     .header{
         padding: 20px 0;
     }
 
+    /* header logo */
     .logo-img{
         height: 31px;
         width: 45px;
@@ -134,6 +136,7 @@
     .logo-start{
         font-size: 3rem;
     }
+    /*  */
 
     /* menu mobile*/
     .menu__mobile-list{
@@ -150,6 +153,7 @@
     .menu__mobile-list--active{
         transform: translateX(0);
     }
+    
     /* menu__icon */
     .icon-close{
         font-size: 25px;
@@ -191,7 +195,10 @@
     }
     /*  */
     
+    /* welcome */
     .welcome__content{
+        max-width: unset;
+        margin: auto;
         margin-top: 30px;
     }
     
@@ -199,12 +206,15 @@
         padding-top: 85px;
         padding-bottom: 41px;
     }
+    /*  */
 
     .post{
         margin-top: 60px;
     }
 
     .post__content{
+        max-width: unset;
+        margin: 0;
         margin-top: 30px;
     }
     

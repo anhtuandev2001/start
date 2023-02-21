@@ -134,6 +134,10 @@ body{
     color: var(--cl-white-100);
 }
 
+.text-green{
+    color: var(--cl-green-100);
+}
+
 .text-dark{
     color: var(--cl-dark-100);
 }
@@ -189,6 +193,16 @@ body{
 /* flex */
 .d-flex{
     display: flex;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap-0{
+    --gap:0;
 }
     
 .justify-between{
