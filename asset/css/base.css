@@ -140,6 +140,10 @@ p{
     color: var(--cl-white-100);
 }
 
+.text-white-75{
+    color: var(--cl-white-75);
+}
+
 .text-green{
     color: var(--cl-green-100);
 }
@@ -160,8 +164,7 @@ p{
 .btn{
     border: none;
     border-radius: 5px;
-    padding-top: 13px;
-    padding-bottom: 10px;
+    padding: 13px 10px 10px 10px;
     width: 170px;
 }
 /*  */

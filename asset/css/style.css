@@ -1,8 +1,8 @@
 /* ---------home--------- */
 /* header */
 .header{
-    padding-top: 35px;
-    padding-bottom: 38px;
+    padding-top: 36px;
+    padding-bottom: 39px;
     position: fixed;
     top: 0;
     left: 0;
@@ -49,12 +49,11 @@
 }
 
 .welcome__content{
-    margin-top: 41px;
     max-width: 410px;
 }
 
 .welcome__heading{
-    margin: 15px 0;
+    margin-top: 15px;
 }
  /*  */
 
@@ -68,24 +67,25 @@
 }
 
 .introduce__heading{
-    margin: 16px 0;
+    margin-top: 16px;
+}
+
+.introduce__sub-heading{
+    margin-top: 16px;
 }
 
 /* partners */
 .partners__list{
     margin: 55px 0;
-    gap: 52px;
-}
-
-.partners__item{
-}
-
-.partners__img{
-    height: 50px;
+    gap: 68px;
 }
 /*  */
 
 /* post */
+.banner__text{
+    margin-top: 15px;
+}
+
 .post{
     margin-top: 73px;
 }
@@ -95,7 +95,7 @@
 }
 
 .post__text{
-    margin: 16px 0;
+    margin-top: 16px;
     color: var(--cl-dark-50);
 }
 
@@ -106,7 +106,7 @@
 }
 
 .team__item{
-    margin-bottom: 35px;
+    height: 100%;
 }
 
 .team__container{
@@ -299,6 +299,10 @@
     margin-bottom: 50px;
 }
 
+.mb-35{
+    margin-bottom: 35px;
+}
+
 .mb-54{
     margin-bottom: 54px;
 }
@@ -308,7 +312,7 @@
 }
 
 .mt-30{
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .mt-60{
