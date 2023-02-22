@@ -186,6 +186,7 @@
     /* welcome */
     .welcome__content {
         margin-top: 30px;
+        max-width: unset;
     }
 
     .welcome {
@@ -193,8 +194,15 @@
         padding-bottom: 41px;
     }
 
-    /*  */
+    .partners__list{
+        --gap:40px;
+    }
 
+    .banner__content{
+        padding:0;
+    }
+
+    /*  */
     .post {
         margin-top: 60px;
     }

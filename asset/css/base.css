@@ -21,19 +21,29 @@
 }
 
 *{
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html{
     font-size: 62.5%;
     font-family: 'Crimson Text', serif;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;   
 }
 
 body{
+    -webkit-font-smoothing: antialiased;
     font-size: 1.5rem;
     line-height: 1.25;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -97,10 +107,6 @@ body{
 
 .p-absolute{
     position: absolute;
-}
-
-.text-b, .text-r {
-    margin: 0;
 }
 
 .text-r{
@@ -256,6 +262,11 @@ body{
     max-width: 100%;
 }
 /*  */
+
+/* img */
+.object-cover{
+    object-fit: cover;
+}
 
 /* box model */
 .p-0{

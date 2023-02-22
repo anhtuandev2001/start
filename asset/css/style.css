@@ -48,14 +48,6 @@
     padding-bottom: 83px;
 }
 
-.welcome__img img{
-    object-fit: cover;
-}
-
-.welcome__label{
-    color: var(--cl-white-100);
-}
-
 .welcome__content{
     margin-top: 41px;
     max-width: 410px;
@@ -63,16 +55,10 @@
 
 .welcome__heading{
     margin: 15px 0;
-    color: var(--cl-white-100);
-}
-
-.welcome__text{
-    color: var(--cl-white-75);
 }
  /*  */
 
  /* introduce */
- 
 .introduce__content{
     max-width: 411px;
 }
@@ -88,7 +74,7 @@
 /* partners */
 .partners__list{
     margin: 55px 0;
-    gap: 40px;
+    gap: 52px;
 }
 
 .partners__item{
@@ -105,12 +91,7 @@
 }
 
 .post__content{
-    margin-top: 88px;
     max-width: 461px;
-}
-
-.post__img{
-    object-fit: cover;
 }
 
 .post__text{
@@ -256,6 +237,7 @@
     border-radius: 5px;
     background: #EEEEEE;
     border: 1px solid #000000;
+    padding: 0 10px;
 }
 
 .input-height{
@@ -303,6 +285,14 @@
 
 .mb-100{
     margin-bottom: 100px;
+}
+
+.pr-20{
+    padding-right: 20px;
+}
+
+.pl-20{
+    padding-left: 20px;
 }
 
 .mb-50{
